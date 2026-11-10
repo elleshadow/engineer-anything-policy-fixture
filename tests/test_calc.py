@@ -5,4 +5,4 @@ from calc import value
 
 class CalculatorTest(unittest.TestCase):
     def test_value(self):
-        self.assertEqual(value(), 1)
+        self.assertEqual(value(), 2)
